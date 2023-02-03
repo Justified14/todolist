@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    background-color: aqua;
+}
+
+.container{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(87, 67, 168);
+    padding: 30px;
+    background-color: rgb(129, 237, 197);
+    box-shadow: rgb(200, 18, 166);
+}
+
+.input-field {
+    text-align: center;
+}
+
+input[type="text"]{
+    color: rgb(26, 150, 26);
+    border: none;
+    background-color: beige;
+    max-width: 400px;
+}
+.todos li {
+    background-color: rgb(72, 164, 224);
+    color: black;
+    font-weight: bold;
+}
+
+.delete {
+    cursor: pointer;
+    color: red;
+}
